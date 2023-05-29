@@ -1,0 +1,32 @@
+server:
+  servlet:
+    context-path: /content
+  port: 63040
+
+  # 微服务配置
+spring:
+  application:
+    name: content-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/xc_content
+    username: root
+    password: root
+
+#日志文件配置
+#logging:
+#  config: classpath:log4j2-dev.xml
+
+  cloud:
+    nacos:
+      config:
+        enabled: false
+        refresh: false
+      discovery:
+        enabled: false
+        register-enabled: false
+
+#  spring.cloud.nacos.config.enabled=false
+#  spring.cloud.nacos.discovery.enabled=false
+#  spring.cloud.nacos.config.refresh-enabled=false
+#  spring.cloud.nacos.discovery.register-enabled=false
