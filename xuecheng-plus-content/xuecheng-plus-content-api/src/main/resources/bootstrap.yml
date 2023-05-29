@@ -30,3 +30,10 @@ spring:
 #  spring.cloud.nacos.discovery.enabled=false
 #  spring.cloud.nacos.config.refresh-enabled=false
 #  spring.cloud.nacos.discovery.register-enabled=false
+
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容系统管理系统对课程相关信息进行管理"
+  base-package: com.xuecheng.content
+  enabled: true
+  version: 1.0.0
