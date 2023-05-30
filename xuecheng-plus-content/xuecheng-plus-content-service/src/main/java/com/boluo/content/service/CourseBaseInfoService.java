@@ -2,6 +2,8 @@ package com.boluo.content.service;
 
 import com.boluo.base.model.PageParams;
 import com.boluo.base.model.PageResult;
+import com.boluo.content.model.dto.AddCourseDto;
+import com.boluo.content.model.dto.CourseBaseInfoDto;
 import com.boluo.content.model.dto.QueryCourseParamsDto;
 import com.boluo.content.model.po.CourseBase;
 
@@ -20,5 +22,5 @@ public interface CourseBaseInfoService {
      * @param addCourseDto 课程信息
      * @return 课程详细信息
      */
-//    public CourseBaseInfoDto createCourseBase(Long companyId,AddCourseDto addCourseDto);
+    public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
 }
