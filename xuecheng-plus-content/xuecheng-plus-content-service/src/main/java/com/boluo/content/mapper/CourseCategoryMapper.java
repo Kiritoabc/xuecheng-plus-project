@@ -1,7 +1,10 @@
 package com.boluo.content.mapper;
 
+import com.boluo.content.model.dto.CourseCategoryTreeDto;
 import com.boluo.content.model.po.CourseCategory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+import java.util.List;
 
 /**
 * @author kirit
@@ -11,6 +14,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 */
 public interface CourseCategoryMapper extends BaseMapper<CourseCategory> {
 
+    List<CourseCategoryTreeDto> selectTreeNodes(String id);
 }
 
 
