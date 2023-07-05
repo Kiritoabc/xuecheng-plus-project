@@ -10,10 +10,12 @@ import com.boluo.content.mapper.CourseCategoryMapper;
 import com.boluo.content.mapper.CourseMarketMapper;
 import com.boluo.content.model.dto.AddCourseDto;
 import com.boluo.content.model.dto.CourseBaseInfoDto;
+import com.boluo.content.model.dto.EditCourseDto;
 import com.boluo.content.model.dto.QueryCourseParamsDto;
 import com.boluo.content.model.po.CourseBase;
 import com.boluo.content.model.po.CourseMarket;
 import com.boluo.content.service.CourseBaseInfoService;
+import com.boluo.content.service.CourseMarketService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +42,8 @@ public class CourseInfoBaseServiceImpl implements CourseBaseInfoService{
     @Autowired
     CourseCategoryMapper courseCategoryMapper;
 
+    @Autowired
+    CourseMarketService courseMarketService;
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto courseParamsDto) {
@@ -132,8 +136,10 @@ public class CourseInfoBaseServiceImpl implements CourseBaseInfoService{
         return courseBaseInfo;
     }
 
+
     //查询课程信息
-    public CourseBaseInfoDto getCourseBaseInfo(long courseId){
+    @Override
+    public CourseBaseInfoDto getCourseBaseInfo(Long courseId){
 
         //从课程基本信息表查询
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
@@ -155,6 +161,58 @@ public class CourseInfoBaseServiceImpl implements CourseBaseInfoService{
 
         return courseBaseInfoDto;
 
+    }
+
+    /**
+     *   修改课程
+     * @param companyId
+     * @param dto
+     * @return
+     */
+    @Override
+    public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto) {
+        //校验
+        //课程id
+        Long id = dto.getId();
+        CourseBase courseBase = courseBaseMapper.selectById(id);
+        if(courseBase==null){
+            XueChengPlusException.cast("课程不存在");
+        }
+
+        //校验本机构只能修改本机构的课程
+        if(!courseBase.getCompanyId().equals(companyId)){
+            XueChengPlusException.cast("本机构只能修改本机构的课程");
+        }
+
+        //封装基本信息的数据
+        BeanUtils.copyProperties(dto,courseBase);
+        courseBase.setChangeDate(LocalDateTime.now());
+
+        //更新课程基本信息
+        int i = courseBaseMapper.updateById(courseBase);
+
+        //封装营销信息的数据
+        CourseMarket courseMarket = new CourseMarket();
+        BeanUtils.copyProperties(dto,courseMarket);
+
+        //校验如果课程为收费，必须输入价格且大于0
+//        String charge = courseMarket.getCharge();
+//        if(charge.equals("201001")){
+//            if(courseMarket.getPrice()==null || courseMarket.getPrice().floatValue()<=0){
+////                throw new RuntimeException("课程为收费价格不能为空且必须大于0");
+//                XueChengPlusException.cast("课程为收费价格不能为空且必须大于0");
+//
+//            }
+//        }
+
+        //请求数据库
+        //对营销表有则更新，没有则添加
+        boolean b = courseMarketService.saveOrUpdate(courseMarket);
+
+        saveCourseMarket(courseMarket);
+        //查询课程信息
+        CourseBaseInfoDto courseBaseInfo = this.getCourseBaseInfo(id);
+        return courseBaseInfo;
     }
 
     //单独写一个方法保存营销信息，逻辑：存在则更新，不存在则添加

@@ -4,6 +4,7 @@ import com.boluo.base.model.PageParams;
 import com.boluo.base.model.PageResult;
 import com.boluo.content.model.dto.AddCourseDto;
 import com.boluo.content.model.dto.CourseBaseInfoDto;
+import com.boluo.content.model.dto.EditCourseDto;
 import com.boluo.content.model.dto.QueryCourseParamsDto;
 import com.boluo.content.model.po.CourseBase;
 
@@ -23,4 +24,22 @@ public interface CourseBaseInfoService {
      * @return 课程详细信息
      */
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
+
+    /**
+     *  根据课程ID查询
+     * @param courseId
+     * @return
+     */
+    CourseBaseInfoDto getCourseBaseInfo(Long courseId);
+
+    /**
+     *  修改课程
+     * @param companyId
+     * @param dto
+     * @return
+     */
+    CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto dto);
+
+    //查询课程信息
+//    CourseBaseInfoDto getCourseBaseInfo(long courseId);
 }
