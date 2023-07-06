@@ -1,4 +1,4 @@
-package com.boluo.xuechengpluscontentservice;
+package com.boluo.content;
 
 import com.boluo.content.mapper.CourseBaseMapper;
 import com.boluo.content.model.po.CourseBase;
@@ -7,11 +7,14 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class XuechengPlusContentServiceApplicationTests {
+@SpringBootTest(classes = MyTest.class)
+class MyTest {
 
 	@Autowired
 	CourseBaseMapper courseBaseMapper;
+
+
+
 
 	@Test
 	void contextLoads() {

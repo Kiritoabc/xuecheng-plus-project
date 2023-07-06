@@ -1,0 +1,1178 @@
+2023-07-06 12:53:38,789 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-07-06 12:53:38,789 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-07-06 12:53:38,800 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-06 12:53:38,800 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-06 12:53:38,805 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:53:38,805 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:53:38,807 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:53:38,807 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:53:38,808 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:53:38,808 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:53:38,808 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:53:38,808 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:53:38,811 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:53:38,811 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:53:38,825 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:53:38,825 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:53:38,934 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:53:38,934 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:53:38,937 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:53:38,937 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:53:38,938 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:53:39,096 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-06 12:53:39,096 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-06 12:53:39,662 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-06 12:53:39,662 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseAuditMapper' and 'com.boluo.content.mapper.CourseAuditMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseAuditMapper' and 'com.boluo.content.mapper.CourseAuditMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.boluo.content.mapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.boluo.content.mapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.boluo.content.mapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.boluo.content.mapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.boluo.content.mapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.boluo.content.mapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.boluo.content.mapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.boluo.content.mapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.boluo.content.mapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,667 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.boluo.content.mapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.boluo.content.mapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.boluo.content.mapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageHistoryMapper' and 'com.boluo.content.mapper.MqMessageHistoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageHistoryMapper' and 'com.boluo.content.mapper.MqMessageHistoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageMapper' and 'com.boluo.content.mapper.MqMessageMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageMapper' and 'com.boluo.content.mapper.MqMessageMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.boluo.content.mapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.boluo.content.mapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.boluo.content.mapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.boluo.content.mapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanWorkMapper' and 'com.boluo.content.mapper.TeachplanWorkMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanWorkMapper' and 'com.boluo.content.mapper.TeachplanWorkMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.boluo.content.mapper]' package. Please check your configuration.
+2023-07-06 12:53:39,668 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.boluo.content.mapper]' package. Please check your configuration.
+2023-07-06 12:53:39,721 INFO [main][GenericScope.java:295] - BeanFactory id=239f10f5-4aba-3691-9650-b746cdc4071c
+2023-07-06 12:53:39,721 INFO [main][GenericScope.java:295] - BeanFactory id=239f10f5-4aba-3691-9650-b746cdc4071c
+2023-07-06 12:53:39,950 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-07-06 12:53:39,950 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-07-06 12:53:39,958 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:39,958 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:39,959 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-06 12:53:39,959 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-06 12:53:39,959 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-06 12:53:39,959 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-06 12:53:40,029 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-06 12:53:40,029 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-06 12:53:40,030 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 921 ms
+2023-07-06 12:53:40,030 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 921 ms
+2023-07-06 12:53:40,151 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-06 12:53:40,151 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-06 12:53:40,208 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@117d32e'
+2023-07-06 12:53:40,208 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@117d32e'
+2023-07-06 12:53:40,277 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.insert
+2023-07-06 12:53:40,277 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.insert
+2023-07-06 12:53:40,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.delete
+2023-07-06 12:53:40,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.delete
+2023-07-06 12:53:40,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteByMap
+2023-07-06 12:53:40,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteByMap
+2023-07-06 12:53:40,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteById
+2023-07-06 12:53:40,300 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteById
+2023-07-06 12:53:40,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteBatchIds
+2023-07-06 12:53:40,302 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteBatchIds
+2023-07-06 12:53:40,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.update
+2023-07-06 12:53:40,305 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.update
+2023-07-06 12:53:40,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.updateById
+2023-07-06 12:53:40,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.updateById
+2023-07-06 12:53:40,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectById
+2023-07-06 12:53:40,307 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectById
+2023-07-06 12:53:40,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectBatchIds
+2023-07-06 12:53:40,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectBatchIds
+2023-07-06 12:53:40,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectByMap
+2023-07-06 12:53:40,310 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectByMap
+2023-07-06 12:53:40,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectOne
+2023-07-06 12:53:40,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectOne
+2023-07-06 12:53:40,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectCount
+2023-07-06 12:53:40,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectCount
+2023-07-06 12:53:40,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMaps
+2023-07-06 12:53:40,315 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMaps
+2023-07-06 12:53:40,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMapsPage
+2023-07-06 12:53:40,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMapsPage
+2023-07-06 12:53:40,318 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectObjs
+2023-07-06 12:53:40,318 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectObjs
+2023-07-06 12:53:40,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectList
+2023-07-06 12:53:40,320 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectList
+2023-07-06 12:53:40,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectPage
+2023-07-06 12:53:40,322 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectPage
+2023-07-06 12:53:40,322 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseAuditMapper.xml]'
+2023-07-06 12:53:40,322 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseAuditMapper.xml]'
+2023-07-06 12:53:40,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.insert
+2023-07-06 12:53:40,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.insert
+2023-07-06 12:53:40,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.delete
+2023-07-06 12:53:40,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.delete
+2023-07-06 12:53:40,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteByMap
+2023-07-06 12:53:40,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteByMap
+2023-07-06 12:53:40,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteById
+2023-07-06 12:53:40,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteById
+2023-07-06 12:53:40,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-07-06 12:53:40,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-07-06 12:53:40,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.update
+2023-07-06 12:53:40,338 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.update
+2023-07-06 12:53:40,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.updateById
+2023-07-06 12:53:40,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.updateById
+2023-07-06 12:53:40,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectById
+2023-07-06 12:53:40,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectById
+2023-07-06 12:53:40,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectBatchIds
+2023-07-06 12:53:40,341 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectBatchIds
+2023-07-06 12:53:40,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectByMap
+2023-07-06 12:53:40,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectByMap
+2023-07-06 12:53:40,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectOne
+2023-07-06 12:53:40,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectOne
+2023-07-06 12:53:40,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectCount
+2023-07-06 12:53:40,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectCount
+2023-07-06 12:53:40,346 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMaps
+2023-07-06 12:53:40,346 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMaps
+2023-07-06 12:53:40,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMapsPage
+2023-07-06 12:53:40,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMapsPage
+2023-07-06 12:53:40,348 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectObjs
+2023-07-06 12:53:40,348 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectObjs
+2023-07-06 12:53:40,349 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectList
+2023-07-06 12:53:40,349 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectList
+2023-07-06 12:53:40,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectPage
+2023-07-06 12:53:40,350 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectPage
+2023-07-06 12:53:40,351 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-07-06 12:53:40,351 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-07-06 12:53:40,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-07-06 12:53:40,358 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-07-06 12:53:40,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.insert
+2023-07-06 12:53:40,360 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.insert
+2023-07-06 12:53:40,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.delete
+2023-07-06 12:53:40,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.delete
+2023-07-06 12:53:40,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteByMap
+2023-07-06 12:53:40,363 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteByMap
+2023-07-06 12:53:40,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteById
+2023-07-06 12:53:40,364 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteById
+2023-07-06 12:53:40,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-07-06 12:53:40,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-07-06 12:53:40,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.update
+2023-07-06 12:53:40,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.update
+2023-07-06 12:53:40,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.updateById
+2023-07-06 12:53:40,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.updateById
+2023-07-06 12:53:40,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectById
+2023-07-06 12:53:40,367 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectById
+2023-07-06 12:53:40,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-07-06 12:53:40,368 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-07-06 12:53:40,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectByMap
+2023-07-06 12:53:40,369 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectByMap
+2023-07-06 12:53:40,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectOne
+2023-07-06 12:53:40,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectOne
+2023-07-06 12:53:40,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectCount
+2023-07-06 12:53:40,372 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectCount
+2023-07-06 12:53:40,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMaps
+2023-07-06 12:53:40,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMaps
+2023-07-06 12:53:40,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-07-06 12:53:40,375 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-07-06 12:53:40,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectObjs
+2023-07-06 12:53:40,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectObjs
+2023-07-06 12:53:40,377 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectList
+2023-07-06 12:53:40,377 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectList
+2023-07-06 12:53:40,378 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectPage
+2023-07-06 12:53:40,378 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectPage
+2023-07-06 12:53:40,378 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'
+2023-07-06 12:53:40,378 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'
+2023-07-06 12:53:40,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.insert
+2023-07-06 12:53:40,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.insert
+2023-07-06 12:53:40,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.delete
+2023-07-06 12:53:40,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.delete
+2023-07-06 12:53:40,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteByMap
+2023-07-06 12:53:40,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteByMap
+2023-07-06 12:53:40,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteById
+2023-07-06 12:53:40,391 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteById
+2023-07-06 12:53:40,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-07-06 12:53:40,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-07-06 12:53:40,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.update
+2023-07-06 12:53:40,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.update
+2023-07-06 12:53:40,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.updateById
+2023-07-06 12:53:40,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.updateById
+2023-07-06 12:53:40,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectById
+2023-07-06 12:53:40,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectById
+2023-07-06 12:53:40,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectBatchIds
+2023-07-06 12:53:40,395 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectBatchIds
+2023-07-06 12:53:40,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectByMap
+2023-07-06 12:53:40,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectByMap
+2023-07-06 12:53:40,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectOne
+2023-07-06 12:53:40,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectOne
+2023-07-06 12:53:40,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectCount
+2023-07-06 12:53:40,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectCount
+2023-07-06 12:53:40,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMaps
+2023-07-06 12:53:40,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMaps
+2023-07-06 12:53:40,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMapsPage
+2023-07-06 12:53:40,401 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMapsPage
+2023-07-06 12:53:40,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectObjs
+2023-07-06 12:53:40,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectObjs
+2023-07-06 12:53:40,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectList
+2023-07-06 12:53:40,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectList
+2023-07-06 12:53:40,404 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectPage
+2023-07-06 12:53:40,404 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectPage
+2023-07-06 12:53:40,405 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-07-06 12:53:40,405 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-07-06 12:53:40,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.insert
+2023-07-06 12:53:40,412 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.insert
+2023-07-06 12:53:40,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.delete
+2023-07-06 12:53:40,414 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.delete
+2023-07-06 12:53:40,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteByMap
+2023-07-06 12:53:40,415 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteByMap
+2023-07-06 12:53:40,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteById
+2023-07-06 12:53:40,416 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteById
+2023-07-06 12:53:40,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-07-06 12:53:40,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-07-06 12:53:40,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.update
+2023-07-06 12:53:40,418 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.update
+2023-07-06 12:53:40,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.updateById
+2023-07-06 12:53:40,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.updateById
+2023-07-06 12:53:40,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectById
+2023-07-06 12:53:40,420 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectById
+2023-07-06 12:53:40,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectBatchIds
+2023-07-06 12:53:40,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectBatchIds
+2023-07-06 12:53:40,423 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectByMap
+2023-07-06 12:53:40,423 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectByMap
+2023-07-06 12:53:40,425 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectOne
+2023-07-06 12:53:40,425 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectOne
+2023-07-06 12:53:40,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectCount
+2023-07-06 12:53:40,426 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectCount
+2023-07-06 12:53:40,427 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMaps
+2023-07-06 12:53:40,427 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMaps
+2023-07-06 12:53:40,428 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMapsPage
+2023-07-06 12:53:40,428 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMapsPage
+2023-07-06 12:53:40,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectObjs
+2023-07-06 12:53:40,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectObjs
+2023-07-06 12:53:40,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectList
+2023-07-06 12:53:40,430 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectList
+2023-07-06 12:53:40,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectPage
+2023-07-06 12:53:40,432 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectPage
+2023-07-06 12:53:40,432 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishMapper.xml]'
+2023-07-06 12:53:40,432 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishMapper.xml]'
+2023-07-06 12:53:40,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.insert
+2023-07-06 12:53:40,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.insert
+2023-07-06 12:53:40,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.delete
+2023-07-06 12:53:40,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.delete
+2023-07-06 12:53:40,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-07-06 12:53:40,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-07-06 12:53:40,443 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteById
+2023-07-06 12:53:40,443 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteById
+2023-07-06 12:53:40,444 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-07-06 12:53:40,444 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-07-06 12:53:40,445 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.update
+2023-07-06 12:53:40,445 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.update
+2023-07-06 12:53:40,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.updateById
+2023-07-06 12:53:40,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.updateById
+2023-07-06 12:53:40,447 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectById
+2023-07-06 12:53:40,447 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectById
+2023-07-06 12:53:40,448 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-07-06 12:53:40,448 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-07-06 12:53:40,448 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectByMap
+2023-07-06 12:53:40,448 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectByMap
+2023-07-06 12:53:40,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectOne
+2023-07-06 12:53:40,450 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectOne
+2023-07-06 12:53:40,451 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectCount
+2023-07-06 12:53:40,451 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectCount
+2023-07-06 12:53:40,452 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMaps
+2023-07-06 12:53:40,452 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMaps
+2023-07-06 12:53:40,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-07-06 12:53:40,454 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-07-06 12:53:40,455 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectObjs
+2023-07-06 12:53:40,455 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectObjs
+2023-07-06 12:53:40,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectList
+2023-07-06 12:53:40,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectList
+2023-07-06 12:53:40,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectPage
+2023-07-06 12:53:40,458 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectPage
+2023-07-06 12:53:40,458 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishPreMapper.xml]'
+2023-07-06 12:53:40,458 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishPreMapper.xml]'
+2023-07-06 12:53:40,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.insert
+2023-07-06 12:53:40,463 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.insert
+2023-07-06 12:53:40,464 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.delete
+2023-07-06 12:53:40,464 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.delete
+2023-07-06 12:53:40,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteByMap
+2023-07-06 12:53:40,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteByMap
+2023-07-06 12:53:40,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteById
+2023-07-06 12:53:40,466 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteById
+2023-07-06 12:53:40,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-07-06 12:53:40,467 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-07-06 12:53:40,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.update
+2023-07-06 12:53:40,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.update
+2023-07-06 12:53:40,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.updateById
+2023-07-06 12:53:40,468 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.updateById
+2023-07-06 12:53:40,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectById
+2023-07-06 12:53:40,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectById
+2023-07-06 12:53:40,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-07-06 12:53:40,469 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-07-06 12:53:40,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectByMap
+2023-07-06 12:53:40,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectByMap
+2023-07-06 12:53:40,472 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectOne
+2023-07-06 12:53:40,472 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectOne
+2023-07-06 12:53:40,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectCount
+2023-07-06 12:53:40,473 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectCount
+2023-07-06 12:53:40,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMaps
+2023-07-06 12:53:40,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMaps
+2023-07-06 12:53:40,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-07-06 12:53:40,475 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-07-06 12:53:40,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectObjs
+2023-07-06 12:53:40,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectObjs
+2023-07-06 12:53:40,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectList
+2023-07-06 12:53:40,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectList
+2023-07-06 12:53:40,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectPage
+2023-07-06 12:53:40,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectPage
+2023-07-06 12:53:40,478 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-07-06 12:53:40,478 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-07-06 12:53:40,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.insert
+2023-07-06 12:53:40,483 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.insert
+2023-07-06 12:53:40,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.delete
+2023-07-06 12:53:40,484 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.delete
+2023-07-06 12:53:40,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteByMap
+2023-07-06 12:53:40,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteByMap
+2023-07-06 12:53:40,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteById
+2023-07-06 12:53:40,486 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteById
+2023-07-06 12:53:40,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-07-06 12:53:40,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-07-06 12:53:40,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.update
+2023-07-06 12:53:40,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.update
+2023-07-06 12:53:40,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.updateById
+2023-07-06 12:53:40,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.updateById
+2023-07-06 12:53:40,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectById
+2023-07-06 12:53:40,490 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectById
+2023-07-06 12:53:40,491 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-07-06 12:53:40,491 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-07-06 12:53:40,492 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectByMap
+2023-07-06 12:53:40,492 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectByMap
+2023-07-06 12:53:40,493 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectOne
+2023-07-06 12:53:40,493 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectOne
+2023-07-06 12:53:40,494 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectCount
+2023-07-06 12:53:40,494 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectCount
+2023-07-06 12:53:40,495 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMaps
+2023-07-06 12:53:40,495 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMaps
+2023-07-06 12:53:40,496 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-07-06 12:53:40,496 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-07-06 12:53:40,497 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectObjs
+2023-07-06 12:53:40,497 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectObjs
+2023-07-06 12:53:40,498 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectList
+2023-07-06 12:53:40,498 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectList
+2023-07-06 12:53:40,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectPage
+2023-07-06 12:53:40,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectPage
+2023-07-06 12:53:40,499 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageHistoryMapper.xml]'
+2023-07-06 12:53:40,499 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageHistoryMapper.xml]'
+2023-07-06 12:53:40,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.insert
+2023-07-06 12:53:40,505 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.insert
+2023-07-06 12:53:40,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.delete
+2023-07-06 12:53:40,506 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.delete
+2023-07-06 12:53:40,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteByMap
+2023-07-06 12:53:40,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteByMap
+2023-07-06 12:53:40,508 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteById
+2023-07-06 12:53:40,508 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteById
+2023-07-06 12:53:40,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteBatchIds
+2023-07-06 12:53:40,509 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteBatchIds
+2023-07-06 12:53:40,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.update
+2023-07-06 12:53:40,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.update
+2023-07-06 12:53:40,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.updateById
+2023-07-06 12:53:40,510 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.updateById
+2023-07-06 12:53:40,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectById
+2023-07-06 12:53:40,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectById
+2023-07-06 12:53:40,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectBatchIds
+2023-07-06 12:53:40,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectBatchIds
+2023-07-06 12:53:40,512 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectByMap
+2023-07-06 12:53:40,512 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectByMap
+2023-07-06 12:53:40,513 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectOne
+2023-07-06 12:53:40,513 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectOne
+2023-07-06 12:53:40,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectCount
+2023-07-06 12:53:40,514 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectCount
+2023-07-06 12:53:40,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMaps
+2023-07-06 12:53:40,515 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMaps
+2023-07-06 12:53:40,516 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMapsPage
+2023-07-06 12:53:40,516 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMapsPage
+2023-07-06 12:53:40,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectObjs
+2023-07-06 12:53:40,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectObjs
+2023-07-06 12:53:40,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectList
+2023-07-06 12:53:40,519 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectList
+2023-07-06 12:53:40,520 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectPage
+2023-07-06 12:53:40,520 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectPage
+2023-07-06 12:53:40,520 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageMapper.xml]'
+2023-07-06 12:53:40,520 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageMapper.xml]'
+2023-07-06 12:53:40,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectTreeNodes
+2023-07-06 12:53:40,528 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectTreeNodes
+2023-07-06 12:53:40,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.insert
+2023-07-06 12:53:40,530 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.insert
+2023-07-06 12:53:40,532 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.delete
+2023-07-06 12:53:40,532 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.delete
+2023-07-06 12:53:40,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteByMap
+2023-07-06 12:53:40,533 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteByMap
+2023-07-06 12:53:40,534 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteById
+2023-07-06 12:53:40,534 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteById
+2023-07-06 12:53:40,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteBatchIds
+2023-07-06 12:53:40,535 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteBatchIds
+2023-07-06 12:53:40,536 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.update
+2023-07-06 12:53:40,536 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.update
+2023-07-06 12:53:40,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.updateById
+2023-07-06 12:53:40,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.updateById
+2023-07-06 12:53:40,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectById
+2023-07-06 12:53:40,537 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectById
+2023-07-06 12:53:40,538 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectBatchIds
+2023-07-06 12:53:40,538 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectBatchIds
+2023-07-06 12:53:40,539 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectByMap
+2023-07-06 12:53:40,539 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectByMap
+2023-07-06 12:53:40,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectOne
+2023-07-06 12:53:40,540 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectOne
+2023-07-06 12:53:40,542 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectCount
+2023-07-06 12:53:40,542 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectCount
+2023-07-06 12:53:40,543 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMaps
+2023-07-06 12:53:40,543 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMaps
+2023-07-06 12:53:40,544 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMapsPage
+2023-07-06 12:53:40,544 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMapsPage
+2023-07-06 12:53:40,546 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectObjs
+2023-07-06 12:53:40,546 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectObjs
+2023-07-06 12:53:40,547 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectList
+2023-07-06 12:53:40,547 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectList
+2023-07-06 12:53:40,548 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectPage
+2023-07-06 12:53:40,548 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectPage
+2023-07-06 12:53:40,548 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-07-06 12:53:40,548 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-07-06 12:53:40,553 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.insert
+2023-07-06 12:53:40,553 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.insert
+2023-07-06 12:53:40,555 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.delete
+2023-07-06 12:53:40,555 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.delete
+2023-07-06 12:53:40,556 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-07-06 12:53:40,556 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-07-06 12:53:40,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteById
+2023-07-06 12:53:40,557 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteById
+2023-07-06 12:53:40,558 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-07-06 12:53:40,558 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-07-06 12:53:40,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.update
+2023-07-06 12:53:40,559 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.update
+2023-07-06 12:53:40,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.updateById
+2023-07-06 12:53:40,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.updateById
+2023-07-06 12:53:40,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectById
+2023-07-06 12:53:40,561 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectById
+2023-07-06 12:53:40,562 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-07-06 12:53:40,562 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-07-06 12:53:40,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectByMap
+2023-07-06 12:53:40,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectByMap
+2023-07-06 12:53:40,564 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectOne
+2023-07-06 12:53:40,564 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectOne
+2023-07-06 12:53:40,570 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectCount
+2023-07-06 12:53:40,570 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectCount
+2023-07-06 12:53:40,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMaps
+2023-07-06 12:53:40,572 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMaps
+2023-07-06 12:53:40,574 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-07-06 12:53:40,574 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-07-06 12:53:40,576 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectObjs
+2023-07-06 12:53:40,576 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectObjs
+2023-07-06 12:53:40,579 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectList
+2023-07-06 12:53:40,579 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectList
+2023-07-06 12:53:40,581 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectPage
+2023-07-06 12:53:40,581 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectPage
+2023-07-06 12:53:40,581 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-07-06 12:53:40,581 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-07-06 12:53:40,589 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.insert
+2023-07-06 12:53:40,589 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.insert
+2023-07-06 12:53:40,592 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.delete
+2023-07-06 12:53:40,592 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.delete
+2023-07-06 12:53:40,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteByMap
+2023-07-06 12:53:40,594 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteByMap
+2023-07-06 12:53:40,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteById
+2023-07-06 12:53:40,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteById
+2023-07-06 12:53:40,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteBatchIds
+2023-07-06 12:53:40,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteBatchIds
+2023-07-06 12:53:40,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.update
+2023-07-06 12:53:40,598 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.update
+2023-07-06 12:53:40,599 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.updateById
+2023-07-06 12:53:40,599 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.updateById
+2023-07-06 12:53:40,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectById
+2023-07-06 12:53:40,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectById
+2023-07-06 12:53:40,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectBatchIds
+2023-07-06 12:53:40,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectBatchIds
+2023-07-06 12:53:40,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectByMap
+2023-07-06 12:53:40,601 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectByMap
+2023-07-06 12:53:40,602 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectOne
+2023-07-06 12:53:40,602 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectOne
+2023-07-06 12:53:40,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectCount
+2023-07-06 12:53:40,603 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectCount
+2023-07-06 12:53:40,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMaps
+2023-07-06 12:53:40,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMaps
+2023-07-06 12:53:40,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMapsPage
+2023-07-06 12:53:40,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMapsPage
+2023-07-06 12:53:40,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectObjs
+2023-07-06 12:53:40,607 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectObjs
+2023-07-06 12:53:40,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectList
+2023-07-06 12:53:40,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectList
+2023-07-06 12:53:40,609 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectPage
+2023-07-06 12:53:40,609 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectPage
+2023-07-06 12:53:40,610 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanWorkMapper.xml]'
+2023-07-06 12:53:40,610 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanWorkMapper.xml]'
+2023-07-06 12:53:41,574 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-06 12:53:41,574 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-06 12:53:41,600 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:53:41,600 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:53:41,601 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-07-06 12:53:41,601 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-07-06 12:53:41,602 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-07-06 12:53:41,602 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-07-06 12:53:41,602 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-07-06 12:53:41,602 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-07-06 12:53:41,603 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:53:41,603 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:53:41,603 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-07-06 12:53:41,603 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-07-06 12:53:41,603 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:53:41,603 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:53:41,603 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:53:41,603 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:53:41,603 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:53:41,603 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:53:41,604 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:53:41,604 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:53:41,605 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:53:41,605 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:53:41,605 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:53:41,605 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:53:41,605 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:53:41,605 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:53:41,606 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:53:41,606 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:53:41,606 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:53:41,606 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:53:41,606 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:53:41,606 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:53:41,654 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:53:41,654 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:53:41,812 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,812 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,821 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 63040 is already in use
+2023-07-06 12:53:41,821 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 63040 is already in use
+2023-07-06 12:53:41,822 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:53:41,822 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:53:41,825 INFO [main][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,825 INFO [main][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,825 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-06 12:53:41,825 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-06 12:53:41,829 INFO [main][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,829 INFO [main][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,829 INFO [main][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,829 INFO [main][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:53:41,833 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-06 12:53:41,833 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-06 12:53:41,838 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63040 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63040 or configure this application to listen on another port.
+
+2023-07-06 12:54:10,360 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-07-06 12:54:10,360 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-07-06 12:54:10,366 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-06 12:54:10,366 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-07-06 12:54:10,372 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:54:10,372 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:54:10,373 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:54:10,373 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:54:10,374 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:54:10,374 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:54:10,374 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:54:10,374 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:54:10,379 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:54:10,379 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:54:10,395 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:54:10,395 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:54:10,520 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:54:10,520 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:54:10,525 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:54:10,525 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:54:10,525 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:54:10,525 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:54:10,525 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:54:10,525 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:54:10,526 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:54:10,526 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:54:10,526 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:54:10,526 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:54:10,709 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-06 12:54:10,709 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-07-06 12:54:11,300 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-06 12:54:11,300 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-06 12:54:11,305 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseAuditMapper' and 'com.boluo.content.mapper.CourseAuditMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,305 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseAuditMapper' and 'com.boluo.content.mapper.CourseAuditMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,305 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.boluo.content.mapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,305 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseBaseMapper' and 'com.boluo.content.mapper.CourseBaseMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.boluo.content.mapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseCategoryMapper' and 'com.boluo.content.mapper.CourseCategoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.boluo.content.mapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseMarketMapper' and 'com.boluo.content.mapper.CourseMarketMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.boluo.content.mapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishMapper' and 'com.boluo.content.mapper.CoursePublishMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.boluo.content.mapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'coursePublishPreMapper' and 'com.boluo.content.mapper.CoursePublishPreMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.boluo.content.mapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'courseTeacherMapper' and 'com.boluo.content.mapper.CourseTeacherMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageHistoryMapper' and 'com.boluo.content.mapper.MqMessageHistoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageHistoryMapper' and 'com.boluo.content.mapper.MqMessageHistoryMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageMapper' and 'com.boluo.content.mapper.MqMessageMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'mqMessageMapper' and 'com.boluo.content.mapper.MqMessageMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.boluo.content.mapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMapper' and 'com.boluo.content.mapper.TeachplanMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.boluo.content.mapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,306 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanMediaMapper' and 'com.boluo.content.mapper.TeachplanMediaMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,307 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanWorkMapper' and 'com.boluo.content.mapper.TeachplanWorkMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,307 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'teachplanWorkMapper' and 'com.boluo.content.mapper.TeachplanWorkMapper' mapperInterface. Bean already defined with the same name!
+2023-07-06 12:54:11,307 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.boluo.content.mapper]' package. Please check your configuration.
+2023-07-06 12:54:11,307 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.boluo.content.mapper]' package. Please check your configuration.
+2023-07-06 12:54:11,369 INFO [main][GenericScope.java:295] - BeanFactory id=239f10f5-4aba-3691-9650-b746cdc4071c
+2023-07-06 12:54:11,369 INFO [main][GenericScope.java:295] - BeanFactory id=239f10f5-4aba-3691-9650-b746cdc4071c
+2023-07-06 12:54:11,608 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-07-06 12:54:11,608 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-07-06 12:54:11,616 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:11,616 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:11,617 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-06 12:54:11,617 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-06 12:54:11,617 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-06 12:54:11,617 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-06 12:54:11,728 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-06 12:54:11,728 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-06 12:54:11,728 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1002 ms
+2023-07-06 12:54:11,728 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1002 ms
+2023-07-06 12:54:11,833 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-06 12:54:11,833 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-06 12:54:11,885 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@74fab04a'
+2023-07-06 12:54:11,885 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@74fab04a'
+2023-07-06 12:54:11,959 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.insert
+2023-07-06 12:54:11,959 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.insert
+2023-07-06 12:54:11,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.delete
+2023-07-06 12:54:11,963 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.delete
+2023-07-06 12:54:11,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteByMap
+2023-07-06 12:54:11,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteByMap
+2023-07-06 12:54:11,982 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteById
+2023-07-06 12:54:11,982 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteById
+2023-07-06 12:54:11,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteBatchIds
+2023-07-06 12:54:11,984 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.deleteBatchIds
+2023-07-06 12:54:11,989 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.update
+2023-07-06 12:54:11,989 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.update
+2023-07-06 12:54:11,991 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.updateById
+2023-07-06 12:54:11,991 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.updateById
+2023-07-06 12:54:11,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectById
+2023-07-06 12:54:11,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectById
+2023-07-06 12:54:11,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectBatchIds
+2023-07-06 12:54:11,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectBatchIds
+2023-07-06 12:54:11,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectByMap
+2023-07-06 12:54:11,994 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectByMap
+2023-07-06 12:54:11,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectOne
+2023-07-06 12:54:11,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectOne
+2023-07-06 12:54:11,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectCount
+2023-07-06 12:54:11,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectCount
+2023-07-06 12:54:11,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMaps
+2023-07-06 12:54:11,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMaps
+2023-07-06 12:54:12,001 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMapsPage
+2023-07-06 12:54:12,001 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectMapsPage
+2023-07-06 12:54:12,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectObjs
+2023-07-06 12:54:12,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectObjs
+2023-07-06 12:54:12,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectList
+2023-07-06 12:54:12,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectList
+2023-07-06 12:54:12,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectPage
+2023-07-06 12:54:12,006 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseAuditMapper.selectPage
+2023-07-06 12:54:12,007 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseAuditMapper.xml]'
+2023-07-06 12:54:12,007 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseAuditMapper.xml]'
+2023-07-06 12:54:12,017 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.insert
+2023-07-06 12:54:12,017 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.insert
+2023-07-06 12:54:12,019 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.delete
+2023-07-06 12:54:12,019 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.delete
+2023-07-06 12:54:12,020 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteByMap
+2023-07-06 12:54:12,020 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteByMap
+2023-07-06 12:54:12,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteById
+2023-07-06 12:54:12,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteById
+2023-07-06 12:54:12,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-07-06 12:54:12,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-07-06 12:54:12,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.update
+2023-07-06 12:54:12,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.update
+2023-07-06 12:54:12,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.updateById
+2023-07-06 12:54:12,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.updateById
+2023-07-06 12:54:12,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectById
+2023-07-06 12:54:12,026 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectById
+2023-07-06 12:54:12,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectBatchIds
+2023-07-06 12:54:12,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectBatchIds
+2023-07-06 12:54:12,028 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectByMap
+2023-07-06 12:54:12,028 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectByMap
+2023-07-06 12:54:12,030 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectOne
+2023-07-06 12:54:12,030 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectOne
+2023-07-06 12:54:12,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectCount
+2023-07-06 12:54:12,031 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectCount
+2023-07-06 12:54:12,033 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMaps
+2023-07-06 12:54:12,033 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMaps
+2023-07-06 12:54:12,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMapsPage
+2023-07-06 12:54:12,035 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectMapsPage
+2023-07-06 12:54:12,037 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectObjs
+2023-07-06 12:54:12,037 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectObjs
+2023-07-06 12:54:12,039 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectList
+2023-07-06 12:54:12,039 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectList
+2023-07-06 12:54:12,040 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectPage
+2023-07-06 12:54:12,040 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseBaseMapper.selectPage
+2023-07-06 12:54:12,041 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-07-06 12:54:12,041 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseBaseMapper.xml]'
+2023-07-06 12:54:12,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-07-06 12:54:12,050 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-07-06 12:54:12,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.insert
+2023-07-06 12:54:12,053 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.insert
+2023-07-06 12:54:12,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.delete
+2023-07-06 12:54:12,055 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.delete
+2023-07-06 12:54:12,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteByMap
+2023-07-06 12:54:12,058 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteByMap
+2023-07-06 12:54:12,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteById
+2023-07-06 12:54:12,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteById
+2023-07-06 12:54:12,060 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-07-06 12:54:12,060 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-07-06 12:54:12,061 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.update
+2023-07-06 12:54:12,061 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.update
+2023-07-06 12:54:12,063 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.updateById
+2023-07-06 12:54:12,063 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.updateById
+2023-07-06 12:54:12,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectById
+2023-07-06 12:54:12,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectById
+2023-07-06 12:54:12,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-07-06 12:54:12,065 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-07-06 12:54:12,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectByMap
+2023-07-06 12:54:12,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectByMap
+2023-07-06 12:54:12,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectOne
+2023-07-06 12:54:12,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectOne
+2023-07-06 12:54:12,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectCount
+2023-07-06 12:54:12,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectCount
+2023-07-06 12:54:12,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMaps
+2023-07-06 12:54:12,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMaps
+2023-07-06 12:54:12,072 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-07-06 12:54:12,072 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-07-06 12:54:12,074 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectObjs
+2023-07-06 12:54:12,074 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectObjs
+2023-07-06 12:54:12,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectList
+2023-07-06 12:54:12,075 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectList
+2023-07-06 12:54:12,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectPage
+2023-07-06 12:54:12,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseCategoryMapper.selectPage
+2023-07-06 12:54:12,077 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'
+2023-07-06 12:54:12,077 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'
+2023-07-06 12:54:12,084 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.insert
+2023-07-06 12:54:12,084 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.insert
+2023-07-06 12:54:12,086 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.delete
+2023-07-06 12:54:12,086 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.delete
+2023-07-06 12:54:12,087 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteByMap
+2023-07-06 12:54:12,087 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteByMap
+2023-07-06 12:54:12,089 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteById
+2023-07-06 12:54:12,089 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteById
+2023-07-06 12:54:12,090 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-07-06 12:54:12,090 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-07-06 12:54:12,092 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.update
+2023-07-06 12:54:12,092 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.update
+2023-07-06 12:54:12,093 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.updateById
+2023-07-06 12:54:12,093 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.updateById
+2023-07-06 12:54:12,093 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectById
+2023-07-06 12:54:12,093 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectById
+2023-07-06 12:54:12,095 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectBatchIds
+2023-07-06 12:54:12,095 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectBatchIds
+2023-07-06 12:54:12,096 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectByMap
+2023-07-06 12:54:12,096 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectByMap
+2023-07-06 12:54:12,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectOne
+2023-07-06 12:54:12,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectOne
+2023-07-06 12:54:12,100 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectCount
+2023-07-06 12:54:12,100 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectCount
+2023-07-06 12:54:12,101 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMaps
+2023-07-06 12:54:12,101 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMaps
+2023-07-06 12:54:12,103 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMapsPage
+2023-07-06 12:54:12,103 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectMapsPage
+2023-07-06 12:54:12,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectObjs
+2023-07-06 12:54:12,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectObjs
+2023-07-06 12:54:12,106 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectList
+2023-07-06 12:54:12,106 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectList
+2023-07-06 12:54:12,108 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectPage
+2023-07-06 12:54:12,108 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseMarketMapper.selectPage
+2023-07-06 12:54:12,108 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-07-06 12:54:12,108 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseMarketMapper.xml]'
+2023-07-06 12:54:12,117 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.insert
+2023-07-06 12:54:12,117 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.insert
+2023-07-06 12:54:12,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.delete
+2023-07-06 12:54:12,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.delete
+2023-07-06 12:54:12,120 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteByMap
+2023-07-06 12:54:12,120 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteByMap
+2023-07-06 12:54:12,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteById
+2023-07-06 12:54:12,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteById
+2023-07-06 12:54:12,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-07-06 12:54:12,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.deleteBatchIds
+2023-07-06 12:54:12,125 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.update
+2023-07-06 12:54:12,125 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.update
+2023-07-06 12:54:12,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.updateById
+2023-07-06 12:54:12,126 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.updateById
+2023-07-06 12:54:12,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectById
+2023-07-06 12:54:12,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectById
+2023-07-06 12:54:12,128 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectBatchIds
+2023-07-06 12:54:12,128 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectBatchIds
+2023-07-06 12:54:12,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectByMap
+2023-07-06 12:54:12,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectByMap
+2023-07-06 12:54:12,131 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectOne
+2023-07-06 12:54:12,131 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectOne
+2023-07-06 12:54:12,132 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectCount
+2023-07-06 12:54:12,132 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectCount
+2023-07-06 12:54:12,134 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMaps
+2023-07-06 12:54:12,134 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMaps
+2023-07-06 12:54:12,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMapsPage
+2023-07-06 12:54:12,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectMapsPage
+2023-07-06 12:54:12,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectObjs
+2023-07-06 12:54:12,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectObjs
+2023-07-06 12:54:12,139 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectList
+2023-07-06 12:54:12,139 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectList
+2023-07-06 12:54:12,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectPage
+2023-07-06 12:54:12,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishMapper.selectPage
+2023-07-06 12:54:12,141 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishMapper.xml]'
+2023-07-06 12:54:12,141 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishMapper.xml]'
+2023-07-06 12:54:12,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.insert
+2023-07-06 12:54:12,147 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.insert
+2023-07-06 12:54:12,149 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.delete
+2023-07-06 12:54:12,149 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.delete
+2023-07-06 12:54:12,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-07-06 12:54:12,150 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteByMap
+2023-07-06 12:54:12,151 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteById
+2023-07-06 12:54:12,151 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteById
+2023-07-06 12:54:12,152 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-07-06 12:54:12,152 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.deleteBatchIds
+2023-07-06 12:54:12,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.update
+2023-07-06 12:54:12,153 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.update
+2023-07-06 12:54:12,154 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.updateById
+2023-07-06 12:54:12,154 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.updateById
+2023-07-06 12:54:12,155 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectById
+2023-07-06 12:54:12,155 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectById
+2023-07-06 12:54:12,158 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-07-06 12:54:12,158 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectBatchIds
+2023-07-06 12:54:12,159 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectByMap
+2023-07-06 12:54:12,159 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectByMap
+2023-07-06 12:54:12,161 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectOne
+2023-07-06 12:54:12,161 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectOne
+2023-07-06 12:54:12,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectCount
+2023-07-06 12:54:12,163 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectCount
+2023-07-06 12:54:12,164 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMaps
+2023-07-06 12:54:12,164 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMaps
+2023-07-06 12:54:12,166 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-07-06 12:54:12,166 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectMapsPage
+2023-07-06 12:54:12,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectObjs
+2023-07-06 12:54:12,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectObjs
+2023-07-06 12:54:12,169 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectList
+2023-07-06 12:54:12,169 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectList
+2023-07-06 12:54:12,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectPage
+2023-07-06 12:54:12,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CoursePublishPreMapper.selectPage
+2023-07-06 12:54:12,171 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishPreMapper.xml]'
+2023-07-06 12:54:12,171 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CoursePublishPreMapper.xml]'
+2023-07-06 12:54:12,178 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.insert
+2023-07-06 12:54:12,178 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.insert
+2023-07-06 12:54:12,179 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.delete
+2023-07-06 12:54:12,179 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.delete
+2023-07-06 12:54:12,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteByMap
+2023-07-06 12:54:12,180 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteByMap
+2023-07-06 12:54:12,181 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteById
+2023-07-06 12:54:12,181 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteById
+2023-07-06 12:54:12,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-07-06 12:54:12,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-07-06 12:54:12,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.update
+2023-07-06 12:54:12,183 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.update
+2023-07-06 12:54:12,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.updateById
+2023-07-06 12:54:12,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.updateById
+2023-07-06 12:54:12,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectById
+2023-07-06 12:54:12,184 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectById
+2023-07-06 12:54:12,185 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-07-06 12:54:12,185 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-07-06 12:54:12,186 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectByMap
+2023-07-06 12:54:12,186 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectByMap
+2023-07-06 12:54:12,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectOne
+2023-07-06 12:54:12,187 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectOne
+2023-07-06 12:54:12,188 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectCount
+2023-07-06 12:54:12,188 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectCount
+2023-07-06 12:54:12,189 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMaps
+2023-07-06 12:54:12,189 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMaps
+2023-07-06 12:54:12,190 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-07-06 12:54:12,190 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-07-06 12:54:12,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectObjs
+2023-07-06 12:54:12,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectObjs
+2023-07-06 12:54:12,192 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectList
+2023-07-06 12:54:12,192 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectList
+2023-07-06 12:54:12,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectPage
+2023-07-06 12:54:12,193 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.CourseTeacherMapper.selectPage
+2023-07-06 12:54:12,194 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-07-06 12:54:12,194 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseTeacherMapper.xml]'
+2023-07-06 12:54:12,201 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.insert
+2023-07-06 12:54:12,201 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.insert
+2023-07-06 12:54:12,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.delete
+2023-07-06 12:54:12,202 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.delete
+2023-07-06 12:54:12,204 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteByMap
+2023-07-06 12:54:12,204 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteByMap
+2023-07-06 12:54:12,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteById
+2023-07-06 12:54:12,205 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteById
+2023-07-06 12:54:12,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-07-06 12:54:12,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-07-06 12:54:12,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.update
+2023-07-06 12:54:12,208 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.update
+2023-07-06 12:54:12,209 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.updateById
+2023-07-06 12:54:12,209 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.updateById
+2023-07-06 12:54:12,209 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectById
+2023-07-06 12:54:12,209 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectById
+2023-07-06 12:54:12,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-07-06 12:54:12,210 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-07-06 12:54:12,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectByMap
+2023-07-06 12:54:12,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectByMap
+2023-07-06 12:54:12,212 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectOne
+2023-07-06 12:54:12,212 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectOne
+2023-07-06 12:54:12,213 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectCount
+2023-07-06 12:54:12,213 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectCount
+2023-07-06 12:54:12,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMaps
+2023-07-06 12:54:12,214 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMaps
+2023-07-06 12:54:12,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-07-06 12:54:12,216 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-07-06 12:54:12,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectObjs
+2023-07-06 12:54:12,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectObjs
+2023-07-06 12:54:12,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectList
+2023-07-06 12:54:12,219 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectList
+2023-07-06 12:54:12,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectPage
+2023-07-06 12:54:12,221 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageHistoryMapper.selectPage
+2023-07-06 12:54:12,222 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageHistoryMapper.xml]'
+2023-07-06 12:54:12,222 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageHistoryMapper.xml]'
+2023-07-06 12:54:12,229 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.insert
+2023-07-06 12:54:12,229 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.insert
+2023-07-06 12:54:12,230 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.delete
+2023-07-06 12:54:12,230 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.delete
+2023-07-06 12:54:12,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteByMap
+2023-07-06 12:54:12,231 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteByMap
+2023-07-06 12:54:12,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteById
+2023-07-06 12:54:12,232 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteById
+2023-07-06 12:54:12,233 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteBatchIds
+2023-07-06 12:54:12,233 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.deleteBatchIds
+2023-07-06 12:54:12,234 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.update
+2023-07-06 12:54:12,234 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.update
+2023-07-06 12:54:12,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.updateById
+2023-07-06 12:54:12,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.updateById
+2023-07-06 12:54:12,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectById
+2023-07-06 12:54:12,236 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectById
+2023-07-06 12:54:12,237 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectBatchIds
+2023-07-06 12:54:12,237 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectBatchIds
+2023-07-06 12:54:12,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectByMap
+2023-07-06 12:54:12,238 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectByMap
+2023-07-06 12:54:12,240 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectOne
+2023-07-06 12:54:12,240 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectOne
+2023-07-06 12:54:12,242 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectCount
+2023-07-06 12:54:12,242 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectCount
+2023-07-06 12:54:12,243 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMaps
+2023-07-06 12:54:12,243 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMaps
+2023-07-06 12:54:12,245 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMapsPage
+2023-07-06 12:54:12,245 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectMapsPage
+2023-07-06 12:54:12,246 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectObjs
+2023-07-06 12:54:12,246 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectObjs
+2023-07-06 12:54:12,248 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectList
+2023-07-06 12:54:12,248 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectList
+2023-07-06 12:54:12,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectPage
+2023-07-06 12:54:12,249 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.MqMessageMapper.selectPage
+2023-07-06 12:54:12,250 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageMapper.xml]'
+2023-07-06 12:54:12,250 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\MqMessageMapper.xml]'
+2023-07-06 12:54:12,259 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectTreeNodes
+2023-07-06 12:54:12,259 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectTreeNodes
+2023-07-06 12:54:12,262 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.insert
+2023-07-06 12:54:12,262 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.insert
+2023-07-06 12:54:12,263 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.delete
+2023-07-06 12:54:12,263 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.delete
+2023-07-06 12:54:12,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteByMap
+2023-07-06 12:54:12,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteByMap
+2023-07-06 12:54:12,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteById
+2023-07-06 12:54:12,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteById
+2023-07-06 12:54:12,267 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteBatchIds
+2023-07-06 12:54:12,267 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.deleteBatchIds
+2023-07-06 12:54:12,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.update
+2023-07-06 12:54:12,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.update
+2023-07-06 12:54:12,271 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.updateById
+2023-07-06 12:54:12,271 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.updateById
+2023-07-06 12:54:12,272 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectById
+2023-07-06 12:54:12,272 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectById
+2023-07-06 12:54:12,273 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectBatchIds
+2023-07-06 12:54:12,273 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectBatchIds
+2023-07-06 12:54:12,275 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectByMap
+2023-07-06 12:54:12,275 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectByMap
+2023-07-06 12:54:12,276 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectOne
+2023-07-06 12:54:12,276 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectOne
+2023-07-06 12:54:12,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectCount
+2023-07-06 12:54:12,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectCount
+2023-07-06 12:54:12,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMaps
+2023-07-06 12:54:12,280 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMaps
+2023-07-06 12:54:12,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMapsPage
+2023-07-06 12:54:12,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectMapsPage
+2023-07-06 12:54:12,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectObjs
+2023-07-06 12:54:12,284 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectObjs
+2023-07-06 12:54:12,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectList
+2023-07-06 12:54:12,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectList
+2023-07-06 12:54:12,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectPage
+2023-07-06 12:54:12,288 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMapper.selectPage
+2023-07-06 12:54:12,288 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-07-06 12:54:12,288 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-07-06 12:54:12,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.insert
+2023-07-06 12:54:12,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.insert
+2023-07-06 12:54:12,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.delete
+2023-07-06 12:54:12,297 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.delete
+2023-07-06 12:54:12,298 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-07-06 12:54:12,298 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-07-06 12:54:12,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteById
+2023-07-06 12:54:12,299 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteById
+2023-07-06 12:54:12,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-07-06 12:54:12,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-07-06 12:54:12,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.update
+2023-07-06 12:54:12,308 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.update
+2023-07-06 12:54:12,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.updateById
+2023-07-06 12:54:12,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.updateById
+2023-07-06 12:54:12,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectById
+2023-07-06 12:54:12,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectById
+2023-07-06 12:54:12,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-07-06 12:54:12,311 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-07-06 12:54:12,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectByMap
+2023-07-06 12:54:12,312 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectByMap
+2023-07-06 12:54:12,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectOne
+2023-07-06 12:54:12,313 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectOne
+2023-07-06 12:54:12,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectCount
+2023-07-06 12:54:12,314 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectCount
+2023-07-06 12:54:12,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMaps
+2023-07-06 12:54:12,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMaps
+2023-07-06 12:54:12,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-07-06 12:54:12,317 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-07-06 12:54:12,318 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectObjs
+2023-07-06 12:54:12,318 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectObjs
+2023-07-06 12:54:12,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectList
+2023-07-06 12:54:12,319 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectList
+2023-07-06 12:54:12,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectPage
+2023-07-06 12:54:12,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanMediaMapper.selectPage
+2023-07-06 12:54:12,321 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-07-06 12:54:12,321 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMediaMapper.xml]'
+2023-07-06 12:54:12,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.insert
+2023-07-06 12:54:12,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.insert
+2023-07-06 12:54:12,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.delete
+2023-07-06 12:54:12,329 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.delete
+2023-07-06 12:54:12,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteByMap
+2023-07-06 12:54:12,330 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteByMap
+2023-07-06 12:54:12,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteById
+2023-07-06 12:54:12,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteById
+2023-07-06 12:54:12,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteBatchIds
+2023-07-06 12:54:12,332 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.deleteBatchIds
+2023-07-06 12:54:12,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.update
+2023-07-06 12:54:12,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.update
+2023-07-06 12:54:12,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.updateById
+2023-07-06 12:54:12,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.updateById
+2023-07-06 12:54:12,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectById
+2023-07-06 12:54:12,336 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectById
+2023-07-06 12:54:12,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectBatchIds
+2023-07-06 12:54:12,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectBatchIds
+2023-07-06 12:54:12,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectByMap
+2023-07-06 12:54:12,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectByMap
+2023-07-06 12:54:12,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectOne
+2023-07-06 12:54:12,340 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectOne
+2023-07-06 12:54:12,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectCount
+2023-07-06 12:54:12,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectCount
+2023-07-06 12:54:12,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMaps
+2023-07-06 12:54:12,343 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMaps
+2023-07-06 12:54:12,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMapsPage
+2023-07-06 12:54:12,344 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectMapsPage
+2023-07-06 12:54:12,345 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectObjs
+2023-07-06 12:54:12,345 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectObjs
+2023-07-06 12:54:12,349 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectList
+2023-07-06 12:54:12,349 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectList
+2023-07-06 12:54:12,351 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectPage
+2023-07-06 12:54:12,351 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.boluo.content.mapper.TeachplanWorkMapper.selectPage
+2023-07-06 12:54:12,351 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanWorkMapper.xml]'
+2023-07-06 12:54:12,351 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [E:\demo\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanWorkMapper.xml]'
+2023-07-06 12:54:13,432 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-06 12:54:13,432 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-06 12:54:13,462 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:54:13,462 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-07-06 12:54:13,464 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-07-06 12:54:13,464 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-07-06 12:54:13,464 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-07-06 12:54:13,464 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-07-06 12:54:13,464 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-07-06 12:54:13,464 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-07-06 12:54:13,465 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:54:13,465 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-07-06 12:54:13,465 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-07-06 12:54:13,465 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-07-06 12:54:13,466 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:54:13,466 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-07-06 12:54:13,466 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:54:13,466 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-07-06 12:54:13,466 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:54:13,466 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-07-06 12:54:13,466 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:54:13,466 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:54:13,468 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-07-06 12:54:13,469 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:54:13,469 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-07-06 12:54:13,524 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:54:13,524 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:54:13,693 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,693 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,704 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 63040 is already in use
+2023-07-06 12:54:13,704 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 63040 is already in use
+2023-07-06 12:54:13,705 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:54:13,705 INFO [main][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-07-06 12:54:13,709 INFO [main][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,709 INFO [main][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,709 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-06 12:54:13,709 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-06 12:54:13,713 INFO [main][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,713 INFO [main][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,713 INFO [main][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,713 INFO [main][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-63040"]
+2023-07-06 12:54:13,719 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-06 12:54:13,719 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-06 12:54:13,726 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63040 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63040 or configure this application to listen on another port.
+
+2023-07-06 12:54:13,726 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63040 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63040 or configure this application to listen on another port.
+
