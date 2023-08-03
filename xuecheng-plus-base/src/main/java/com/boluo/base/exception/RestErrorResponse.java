@@ -3,9 +3,10 @@ package com.boluo.base.exception;
 import java.io.Serializable;
 
 /**
- * @author Kirito
- * @version 1.0
- * @description 和前端约定返回的异常信息模型
+ * 错误响应参数包装
+ *
+ * @author spongzi
+ * @date 2023/07/17
  */
 public class RestErrorResponse implements Serializable {
 

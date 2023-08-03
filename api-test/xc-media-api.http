@@ -1,0 +1,9 @@
+### 上传文件
+POST {{gateway_host}}/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="DJI_0184.jpg"
+Content-Type: application/octet-stream
+
+< E:\BaiduNetdiskDownload\4.9小排球\DJI_0184.JPG

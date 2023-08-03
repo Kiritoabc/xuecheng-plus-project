@@ -322,10 +322,10 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2023-05-29 22:44:36,649 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
 2023-05-29 22:44:37,158 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
 2023-05-29 22:44:37,158 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2023-05-29 22:44:37,162 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'dictionaryMapper' and 'com.xuecheng.system.mapper.DictionaryMapper' mapperInterface. Bean already defined with the same name!
-2023-05-29 22:44:37,162 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'dictionaryMapper' and 'com.xuecheng.system.mapper.DictionaryMapper' mapperInterface. Bean already defined with the same name!
-2023-05-29 22:44:37,163 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.system.mapper]' package. Please check your configuration.
-2023-05-29 22:44:37,163 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.xuecheng.system.mapper]' package. Please check your configuration.
+2023-05-29 22:44:37,162 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'dictionaryMapper' and 'com.boluo.system.mapper.DictionaryMapper' mapperInterface. Bean already defined with the same name!
+2023-05-29 22:44:37,162 WARN [main][Logger.java:44] - Skipping MapperFactoryBean with name 'dictionaryMapper' and 'com.boluo.system.mapper.DictionaryMapper' mapperInterface. Bean already defined with the same name!
+2023-05-29 22:44:37,163 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.boluo.system.mapper]' package. Please check your configuration.
+2023-05-29 22:44:37,163 WARN [main][Logger.java:44] - No MyBatis mapper was found in '[com.boluo.system.mapper]' package. Please check your configuration.
 2023-05-29 22:44:37,225 INFO [main][GenericScope.java:295] - BeanFactory id=5167990e-c46b-3be0-b455-c74499ef4c72
 2023-05-29 22:44:37,225 INFO [main][GenericScope.java:295] - BeanFactory id=5167990e-c46b-3be0-b455-c74499ef4c72
 2023-05-29 22:44:37,477 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)

@@ -1,14 +1,17 @@
 package com.boluo.base.exception;
 
 /**
- * 分组校验
+ * 校验分组
+ *
+ * @author spongzi
+ * @date 2023/07/17
  */
 public class ValidationGroups {
 
-    public interface Inster{};
+    public interface Insert {}
 
-    public interface Update{};
+    public interface Update {}
 
-    public interface Delete{};
+    public interface Delete {}
 
 }

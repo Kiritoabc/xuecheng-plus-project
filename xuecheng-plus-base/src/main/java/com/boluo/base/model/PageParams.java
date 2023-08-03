@@ -1,37 +1,32 @@
 package com.boluo.base.model;
 
-import io.swagger.annotations.ApiModelProperty;
+
 import lombok.Data;
+import lombok.ToString;
 
 /**
- * @author kirito
- * @version 1.0
- * @description:  分页查询参数
- * @date 2023/5/27 18:52
+ * 分页参数
+ *
+ * @author spongzi
+ * @date 2023/07/14
  */
 @Data
+@ToString
 public class PageParams {
 
-    // 当前页
-    @ApiModelProperty("页码")
-    private Long pageNo=1L;
-    // 每页记录数
-    @ApiModelProperty("每页记录数")
-    private Long pageSize=30L;
+    //当前页码
+    private Long pageNo = 1L;
 
-    @Override
-    public String toString() {
-        return "PageParams{" +
-                "pageNo=" + pageNo +
-                ", pageSize=" + pageSize +
-                '}';
+    //每页记录数默认值
+    private Long pageSize =10L;
+
+    public PageParams(){
+
     }
-    public PageParams() {
-    }
-    public PageParams(Long pageNo, Long pageSize) {
+
+    public PageParams(long pageNo,long pageSize){
         this.pageNo = pageNo;
         this.pageSize = pageSize;
     }
-
-
 }
+

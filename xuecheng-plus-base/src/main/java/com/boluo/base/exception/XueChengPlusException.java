@@ -1,36 +1,40 @@
 package com.boluo.base.exception;
 
+
+import com.boluo.base.enumeration.ErrorEnum;
+
 /**
- * @author Mr.M
- * @version 1.0
- * @description 本项目自定义异常类型
+ * 学成在线 统一异常处理
+ *
+ * @author spongzi
+ * @date 2023/07/17
  */
 public class XueChengPlusException extends RuntimeException {
 
-    private String errMessage;
+   private String errMessage;
 
-    public XueChengPlusException() {
-    }
+   public XueChengPlusException() {
+      super();
+   }
 
-    public XueChengPlusException(String message) {
-        super(message);
-        this.errMessage = message;
+   public XueChengPlusException(String errMessage) {
+      super(errMessage);
+      this.errMessage = errMessage;
+   }
 
-    }
+   public String getErrMessage() {
+      return errMessage;
+   }
 
-    public String getErrMessage() {
-        return errMessage;
-    }
+   public static void cast(CommonError commonError){
+       throw new XueChengPlusException(commonError.getErrMessage());
+   }
 
-    public void setErrMessage(String errMessage) {
-        this.errMessage = errMessage;
-    }
+   public static void cast(String errMessage){
+       throw new XueChengPlusException(errMessage);
+   }
 
-    public static void cast(String message){
-        throw new XueChengPlusException(message);
-    }
-    public static void cast(CommonError error){
-        throw new XueChengPlusException(error.getErrMessage());
-    }
-
+   public static void cast(ErrorEnum errorEnum){
+      throw new XueChengPlusException(errorEnum.getErrMessage());
+   }
 }

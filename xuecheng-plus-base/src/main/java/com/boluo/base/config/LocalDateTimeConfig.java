@@ -10,7 +10,10 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- *  统一时间配置
+ * 当地日期时间配置
+ *
+ * @author spongzi
+ * @date 2023/07/14
  */
 @Configuration
 public class LocalDateTimeConfig {
