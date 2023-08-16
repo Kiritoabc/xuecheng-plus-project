@@ -174,7 +174,8 @@ public class MediaFileServiceImpl implements MediaFileService {
         String chunkFilePath = minIOUtils.getChunkFileFolderPath(fileMd5) + chunk;
         String mimeType = minIOUtils.getMimeType(null);
         // 将分块文件上传到minio
-        boolean addMediaFilesToMinIO = minIOUtils.addMediaFilesToMinIO(localChunkFilePath, mimeType, bucketVideoFiles, chunkFilePath);
+        boolean addMediaFilesToMinIO = minIOUtils
+                .addMediaFilesToMinIO(localChunkFilePath, mimeType, bucketVideoFiles, chunkFilePath);
         if (!addMediaFilesToMinIO) {
             return RestResponse.validfail(false, "上传分块文件失败");
         }

@@ -24,7 +24,7 @@ import static com.boluo.base.constant.MediaConstant.*;
 /**
  * 视频任务
  *
- * @author spongzi
+ * @author kirito
  * @date 2023/07/24
  */
 @Slf4j

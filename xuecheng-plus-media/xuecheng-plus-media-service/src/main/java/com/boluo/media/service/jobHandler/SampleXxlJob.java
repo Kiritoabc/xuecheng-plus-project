@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 简单的xxl-job案例
  *
- * @author spongzi
+ * @author kirito
  * @date 2023/07/22
  */
 @Slf4j

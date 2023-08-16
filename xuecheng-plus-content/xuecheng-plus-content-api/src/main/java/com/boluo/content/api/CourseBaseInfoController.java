@@ -37,7 +37,7 @@ public class CourseBaseInfoController {
 
     @ApiOperation("新增课程")
     @PostMapping("/course")
-    public CourseBaseInfoDto createCourseBase(@RequestBody @Validated(ValidationGroups.Inster.class) AddCourseDto addCourseDto){
+    public CourseBaseInfoDto createCourseBase(@RequestBody @Validated(ValidationGroups.Insert.class) AddCourseDto addCourseDto){
         // 获取到用户所属的id
         Long companyId = 1232141425L;
 //        int i = 1/0;

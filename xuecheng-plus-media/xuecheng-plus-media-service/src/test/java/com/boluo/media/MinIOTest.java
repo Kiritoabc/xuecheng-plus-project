@@ -13,8 +13,8 @@ import org.junit.jupiter.api.Test;
 public class MinIOTest {
 
     MinioClient minioClient = MinioClient.builder()
-            .endpoint("http://192.168.101.65:9000/")
-            .credentials("minioadmin", "minioadmin")
+            .endpoint("http://127.0.0.1:9000/")
+            .credentials("minio", "minio@123456")
             .build();
 
     @Test
