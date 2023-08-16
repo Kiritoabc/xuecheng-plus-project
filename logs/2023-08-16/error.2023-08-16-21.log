@@ -1,4 +1,4 @@
-2023-08-16 22:00:21,951 ERROR [http-nio-63050-exec-4][MinIOUtils.java:109] - 上传文件到minio出错,bucket:video,objectName:d/4/d41d8cd98f00b204e9800998ecf8427e/chunk/0,错误原因:Non-XML response from server. Response code: 403, Content-Type: text/xml; charset=utf-8, body: <?xml version="1.0" encoding="UTF-8"?>
+2023-08-16 21:49:05,967 ERROR [http-nio-63050-exec-6][MinIOUtils.java:109] - 上传文件到minio出错,bucket:video,objectName:d/4/d41d8cd98f00b204e9800998ecf8427e/chunk/0,错误原因:Non-XML response from server. Response code: 403, Content-Type: text/xml; charset=utf-8, body: <?xml version="1.0" encoding="UTF-8"?>
 <Error>
   <Code>AccessDenied</Code>
   <Message>S3 API Request made to Console port. S3 Requests should be sent to API port.</Message>
@@ -17,7 +17,7 @@ io.minio.errors.InvalidResponseException: Non-XML response from server. Response
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
-2023-08-16 22:00:21,975 ERROR [http-nio-63050-exec-4][GlobalExceptionHandler.java:23] - 【系统异常】MEDIA_UPLOAD_FILE_ERROR
+2023-08-16 21:49:05,973 ERROR [http-nio-63050-exec-6][GlobalExceptionHandler.java:23] - 【系统异常】MEDIA_UPLOAD_FILE_ERROR
 com.boluo.base.exception.XueChengPlusException: MEDIA_UPLOAD_FILE_ERROR
 	at com.boluo.base.exception.XueChengPlusException.cast(XueChengPlusException.java:34)
 	at com.boluo.media.utils.MinIOUtils.addMediaFilesToMinIO(MinIOUtils.java:110)
@@ -25,7 +25,7 @@ com.boluo.base.exception.XueChengPlusException: MEDIA_UPLOAD_FILE_ERROR
 	at com.boluo.media.service.impl.MediaFileServiceImpl$$FastClassBySpringCGLIB$$ce24be7e.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.boluo.media.service.impl.MediaFileServiceImpl$$EnhancerBySpringCGLIB$$f91ea005.uploadChunk(<generated>)
+	at com.boluo.media.service.impl.MediaFileServiceImpl$$EnhancerBySpringCGLIB$$79870fcb.uploadChunk(<generated>)
 	at com.boluo.media.api.BigFileController.uploadchunk(BigFileController.java:60)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -77,20 +77,42 @@ com.boluo.base.exception.XueChengPlusException: MEDIA_UPLOAD_FILE_ERROR
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
-2023-08-16 22:56:46,857 ERROR [http-nio-63050-exec-4][GlobalExceptionHandler.java:31] - 【系统异常】java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:309)
-	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:272)
-	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
-	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
-	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1176)
-	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1008)
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
-	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:277)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181)
-	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:123)
+2023-08-16 21:50:13,017 ERROR [http-nio-63050-exec-2][MinIOUtils.java:109] - 上传文件到minio出错,bucket:video,objectName:d/4/d41d8cd98f00b204e9800998ecf8427e/chunk/0,错误原因:Non-XML response from server. Response code: 403, Content-Type: text/xml; charset=utf-8, body: <?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>S3 API Request made to Console port. S3 Requests should be sent to API port.</Message>
+  <RequestId>0</RequestId>
+</Error>
+
+io.minio.errors.InvalidResponseException: Non-XML response from server. Response code: 403, Content-Type: text/xml; charset=utf-8, body: <?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>S3 API Request made to Console port. S3 Requests should be sent to API port.</Message>
+  <RequestId>0</RequestId>
+</Error>
+
+	at io.minio.S3Base$1.onResponse(S3Base.java:595)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2023-08-16 21:50:13,018 ERROR [http-nio-63050-exec-2][GlobalExceptionHandler.java:23] - 【系统异常】MEDIA_UPLOAD_FILE_ERROR
+com.boluo.base.exception.XueChengPlusException: MEDIA_UPLOAD_FILE_ERROR
+	at com.boluo.base.exception.XueChengPlusException.cast(XueChengPlusException.java:34)
+	at com.boluo.media.utils.MinIOUtils.addMediaFilesToMinIO(MinIOUtils.java:110)
+	at com.boluo.media.service.impl.MediaFileServiceImpl.uploadChunk(MediaFileServiceImpl.java:178)
+	at com.boluo.media.service.impl.MediaFileServiceImpl$$FastClassBySpringCGLIB$$ce24be7e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.boluo.media.service.impl.MediaFileServiceImpl$$EnhancerBySpringCGLIB$$79870fcb.uploadChunk(<generated>)
+	at com.boluo.media.api.BigFileController.uploadchunk(BigFileController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
 	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
@@ -134,24 +156,3 @@ org.apache.catalina.connector.ClientAbortException: java.io.IOException: 远程�
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
-Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
-	at sun.nio.ch.SocketDispatcher.write0(Native Method)
-	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
-	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
-	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
-	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:470)
-	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:138)
-	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
-	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:152)
-	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1253)
-	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
-	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:717)
-	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:707)
-	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:572)
-	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
-	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:220)
-	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1195)
-	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:402)
-	at org.apache.coyote.Response.action(Response.java:209)
-	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:305)
-	... 54 more

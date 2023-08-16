@@ -25,7 +25,7 @@ import static com.boluo.base.enumeration.ErrorEnum.MEDIA_UPLOAD_FILE_ERROR;
 /**
  * minIO工具类
  *
- * @author spongzi
+ * @author kirito
  * @date 2023/07/21
  */
 @Slf4j
