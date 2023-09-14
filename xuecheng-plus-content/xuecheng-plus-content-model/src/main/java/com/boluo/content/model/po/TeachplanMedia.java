@@ -5,8 +5,12 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
+
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * 
@@ -14,6 +18,8 @@ import lombok.Data;
  */
 @TableName(value ="teachplan_media")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class TeachplanMedia implements Serializable {
     /**
      * 主键
@@ -44,7 +50,7 @@ public class TeachplanMedia implements Serializable {
     /**
      * 
      */
-    private Date createDate;
+    private LocalDateTime createDate;
 
     /**
      * 创建人
@@ -114,4 +120,6 @@ public class TeachplanMedia implements Serializable {
         sb.append("]");
         return sb.toString();
     }
+
+
 }

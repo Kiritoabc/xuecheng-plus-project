@@ -1,10 +1,13 @@
 package com.boluo.content.api;
 
 import com.boluo.content.mapper.TeachplanMapper;
+import com.boluo.content.model.dto.BindTeachplanMediaDto;
 import com.boluo.content.model.dto.SaveTeachplanDto;
 import com.boluo.content.model.dto.TeachplanDto;
+import com.boluo.content.model.po.TeachplanMedia;
 import com.boluo.content.service.TeachplanService;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -42,4 +45,9 @@ public class TeachPlanController {
         teachplanService.saveTeachplan(dto);
     }
 
+    @ApiOperation(value = "课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public TeachplanMedia associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto) {
+        return teachplanService.associationMedia(bindTeachplanMediaDto);
+    }
 }

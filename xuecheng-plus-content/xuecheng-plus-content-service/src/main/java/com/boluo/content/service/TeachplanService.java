@@ -1,9 +1,11 @@
 package com.boluo.content.service;
 
+import com.boluo.content.model.dto.BindTeachplanMediaDto;
 import com.boluo.content.model.dto.SaveTeachplanDto;
 import com.boluo.content.model.dto.TeachplanDto;
 import com.boluo.content.model.po.Teachplan;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.boluo.content.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -26,4 +28,6 @@ public interface TeachplanService extends IService<Teachplan> {
      * @return void
      */
     void saveTeachplan(SaveTeachplanDto dto);
+
+    TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
 }

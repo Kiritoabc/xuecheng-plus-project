@@ -36,12 +36,7 @@ import java.util.stream.Stream;
 import static com.boluo.base.constant.MediaConstant.*;
 import static com.boluo.base.enumeration.ErrorEnum.*;
 
-/**
- * @author Mr.M
- * @version 1.0
- * @description TODO
- * @date 2022/9/10 8:58
- */
+
 @Slf4j
 @Service
 public class MediaFileServiceImpl implements MediaFileService {

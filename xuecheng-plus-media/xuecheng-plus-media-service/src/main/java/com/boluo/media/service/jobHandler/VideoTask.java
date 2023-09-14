@@ -109,11 +109,9 @@ public class VideoTask {
                     //开始视频转换，成功将返回success,失败返回失败原因
                     String result = videoUtil.generateMp4();
                     if (!result.equals(MEDIA_VIDEO_TYPE_AVI_TO_MP4_RESULT_SUCCESS)) {
-
                         log.debug("视频转码失败,原因:{},bucket:{},objectName:{},", result, bucket, objectName);
                         mediaFileProcessService.saveProcessFinishStatus(taskId, "3", fileId, null, result);
                         return;
-
                     }
                     //上传到minio
                     boolean b1 = minIOUtils.addMediaFilesToMinIO(mp4File.getAbsolutePath(), MEDIA_VIDEO_MIME_TYPE_MP4_VALUE, bucket, objectName);
@@ -124,7 +122,6 @@ public class VideoTask {
                     }
                     //mp4文件的url
                     String url = minIOUtils.getFilePathByMd5(fileId, ".mp4");
-
                     //更新任务状态为成功
                     mediaFileProcessService.saveProcessFinishStatus(taskId, "2", fileId, url, "创建临时文件异常");
                 } finally {
